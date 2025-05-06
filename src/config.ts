@@ -1,12 +1,12 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://fabianka.my.id/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'fabianka blog',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+    'Fabianka personal website',
+  author: 'Fabianvka',
   lang: 'en',
   ogLocale: 'en_US',
   imageDomains: ['cdn.bsky.app'],
@@ -26,46 +26,33 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
     },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-material-symbols-note-stack-outline-sharp',
-    },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
+    // {
+    //   path: '/shorts',
+    //   title: 'Shorts',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Shorts',
+    //   icon: 'i-material-symbols-note-stack-outline-sharp',
+    // },
+    // {
+    //   path: '/changelog',
+    //   title: 'Changelog',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Changelog',
+    //   icon: 'i-ri-draft-line',
+    // },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/Fadil-Tao',
+      title: 'fabian on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://x.com/Fabianvnka',
+      title: 'fabian on Twitter',
       displayMode: 'alwaysIcon',
       icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
     },
   ],
   navBarLayout: {
@@ -77,7 +64,6 @@ export const UI: Ui = {
       'hr',
       'searchButton',
       'themeButton',
-      'rssLink',
     ],
     mergeOnMobile: true,
   },
@@ -122,8 +108,8 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
+      twitter: [true, '@Fabianvnka'],
+      bluesky: false,
       mastodon: false,
       facebook: false,
       pinterest: false,
